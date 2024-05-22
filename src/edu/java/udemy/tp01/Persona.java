@@ -1,7 +1,7 @@
 package edu.java.udemy.tp01;
 
 public class Persona {
-	//Atrbutos de la clase
+	//Atributos de la clase
 	private String nombre;
 	private String apellido;
 
@@ -14,10 +14,9 @@ public class Persona {
 	}
 	
 		
-		
+	// solo asigne los parametro a las variables de la clases
 	public Persona(String nombre, String apellido) {
-			
-			
+			this(nombre,apellido);
 	}
 
 	public String getNombre() {
